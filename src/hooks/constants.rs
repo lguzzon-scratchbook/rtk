@@ -22,11 +22,7 @@ pub const CURSOR_DIR: &str = ".cursor";
 pub const CODEX_DIR: &str = ".codex";
 pub const GEMINI_DIR: &str = ".gemini";
 
-/// Default Pi config subdirectory under $HOME
 pub const PI_DIR: &str = ".pi/agent";
-/// Subdirectory inside the Pi config dir where extensions live
 pub const PI_EXTENSIONS_SUBDIR: &str = "extensions";
-/// Filename for the installed RTK extension
 pub const PI_PLUGIN_FILE: &str = "rtk.ts";
-/// Environment variable that overrides the Pi config directory
 pub const PI_CODING_AGENT_DIR_ENV: &str = "PI_CODING_AGENT_DIR";
